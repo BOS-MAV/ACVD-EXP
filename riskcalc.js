@@ -69,6 +69,6 @@ function calc_risk() {
 
                 xbeta = age5Weight + sexWeight + raceWeight + diabetesWeight + smokerWeight + totchl+hdlcWeight+bpSysWeight+hypertensionWeight+statinWeight;
                 eXbeta = Math.exp(xbeta-2.72934);
-                risk = 1 - Math.pow(0.98786,eXbeta);
+                risk = 1 - Math.pow(0.98786,xbeta);
                 return numberFormat(risk*100,2);
                 }   
