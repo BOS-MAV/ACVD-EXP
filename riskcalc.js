@@ -38,15 +38,15 @@ function calc_risk() {
                 smokerWeight = smoker * 0.23196;
                 if (parseInt($("#TotChol").val()) > 150 && parseInt($("#TotChol").val()) < 201)
                 {
-                    totchl = 0.00575*(parseInt($("#TotChol").val()));
+                    totchl = 0.00575;
                 }
                 else if (parseInt($("#TotChol").val()) > 200 && parseInt($("#TotChol").val()) < 251)
                 {
-                    totchl = 0.14601*(parseInt($("#TotChol").val()));
+                    totchl = 0.14601;
                 }
                 else if (parseInt($("#TotChol").val()) > 250)
                 {
-                    totchl = 0.45042*(parseInt($("#TotChol").val()));
+                    totchl = 0.45042;
                 }
                 else
                 {
