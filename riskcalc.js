@@ -42,11 +42,11 @@ function calc_risk() {
                 }
                 else if (parseInt($("#TotChol").val()) > 200 && parseInt($("#TotChol").val()) < 251)
                 {
-                    totchl = 0.14601;
+                    totchl = 0.14601*2;
                 }
                 else if (parseInt($("#TotChol").val()) > 250)
                 {
-                    totchl = 0.45042;
+                    totchl = 0.45042*3;
                 }
                 else
                 {
